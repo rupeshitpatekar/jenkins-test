@@ -1,0 +1,7 @@
+---
+- name: Playbook to create a user
+  hosts: all
+
+  tasks:
+    - name: Add user to Client
+      user: name=rupeshit-test uid=1005 state=present
