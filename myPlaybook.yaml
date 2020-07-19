@@ -1,6 +1,6 @@
 ---
 - name: Playbook to create a user
-  hosts: all
+  hosts: devops
 
   tasks:
     - name: Add user to Client
